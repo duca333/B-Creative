@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>b Creative</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="container-navigation">
+      <nav>
+        <img id="pocetna" src="1. HEADER/logo b-creative-01.svg" alt="Error" />
+
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li>
+              <a href="#pocetna"><b>POCETNA</b></a>
+            </li>
+            <li>
+              <a href="#o-nama"><b>O NAMA</b></a>
+            </li>
+            <li>
+              <a href="#portfolio"><b>PORTFOLIO</b></a>
+            </li>
+            <li>
+              <a href="#blog"><b>BLOG</b></a>
+            </li>
+            <li>
+              <a href="#kontakt"><b>KONTAKT</b></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa-sharp fa-solid fa-magnifying-glass"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+    </div>
+    <div class="Header-picture">
+      <div class="Header-text">
+        <h1 class="top">DIZAJNIRAMO NAJBOLJE</h1>
+        <h1 class="mid">WEB STRANICE</h1>
+        <a class="contact-us" href="#">
+          <button class="bot">Kontaktiraj nas!</button>
+        </a>
+      </div>
+      <div class="color-overlay"></div>
+    </div>
+
+    <div id="o-nama" class="o-nama">
+      <h1 class="o-nama-naslov">MI SMO AGENCIJA KOJA DONOSI REZULTATE</h1>
+      <hr class="o-nama-podvuceno" />
+      <p class="lorem-o-nama">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorem
+        laboriosam deserunt fugiat dicta<br /><br />
+        dolor repellat velit nisi deleniti consectetur.
+      </p>
+    </div>
+    <div class="container-ikonice">
+      <div class="xxx">
+        <div class="ikonica-holder">
+          <i class="fa-sharp fa-solid fa-laptop-code text-danger2"></i>
+        </div>
+
+        <h3 class="icon-text">DEVELOPMENT</h3>
+        <hr class="underline-ikonice" />
+        <p class="lorem">
+          Lorem ipsum dolor sit, amet consectetur<br />
+          adipisicing elit. Magni quasi id optio!
+        </p>
+      </div>
+      <div class="xxx">
+        <div class="ikonica-holder">
+          <i class="fa-regular fa-lightbulb text-danger3"></i>
+        </div>
+        
+        <h3 class="icon-text">BRANDING</h3>
+         <div class="under">
+            <hr class="underline-ikonice" />
+         </div>
+        <p class="lorem">
+          Lorem ipsum dolor sit, amet consectetur<br />
+          adipisicing elit. Magni quasi id optio!
+        </p>
+      </div>
+      <div class="xxx">
+        <div class="ikonica-holder">
+          <i
+            id="treca-ikonica"
+            class="fa-sharp fa-solid fa-rectangle-ad text-danger4"
+          ></i>
+        </div>
+
+        <h3 class="icon-text">MARKETING</h3>
+        <hr class="underline-ikonice" />
+        <p class="lorem">
+          Lorem ipsum dolor sit, amet consectetur<br />
+          adipisicing elit. Magni quasi id optio!
+        </p>
+      </div>
+    </div>
+
+
+
+
+    <div class="portfolio">
+     <div class="naslov-portfolio">
+        <h1 id="portfolio" class="naslov">PORTFOLIO</h1>
+        <hr class="underline-naslov">
+        <button class="prvi">SVI RADOVI</button>
+        <button class="drugi">LOGO DIZAJN</button>
+        <button class="treci">WEB DIZAJN</button>
+        <button class="cetvrti">DEVELOPMENT</button>
+    </div>
+
+    <div class="container-portfolio">
+        <div class="grid-container ">
+            <div class="grid-item big-picture-1 logo-dizajn">
+              <img src='4. PORTFOLIO - slike/tsif-logo-dizajn-680x480px.jpg'>
+              <div class="hover">
+                <div class="image__title">TSFI</div>
+                <p class="image__description">
+                    LOGO DIZAJN
+                </p>
+            </div>
+            </div>
+            <div class="grid-item small-picture-1 web-dizajn" >
+              <img src='4. PORTFOLIO - slike/plum-web-dizajn340x480px.jpg'>
+              <div class="hover">
+                <div class="image__title">PLUM</div>
+                <p class="image__description">
+                    WEB DIZAJN
+                </p>
+            </div>
+            </div>
+            <div class="grid-item small-picture-2 logo-dizajn" >
+              <img src='4. PORTFOLIO - slike/rolex-logo-dizajn-340x480px.jpg'>
+              <div class="hover">
+                <div class="image__title">ROLEX</div>
+                <p class="image__description">
+                    LOGO DIZAJN
+                </p>
+            </div>
+            </div>
+            <div class="grid-item big-picture-2 development">
+              <img src='4. PORTFOLIO - slike/app-development-680x480px.jpg'>
+              <div class="hover">
+                <div class="image__title">APP</div>
+                <p class="image__description">
+                    DEVELOPMENT
+                </p>
+            </div>
+            </div>
+            <div class="grid-item big-picture-3 web-dizajn" >
+              <img src='4. PORTFOLIO - slike/shwamhouse-web-dizajn340x4960px.jpg'>
+              <div class="hover">
+                <div class="image__title">SHWAMHOUSE</div>
+                <p class="image__description">
+                    WEB DIZAJN
+                </p>
+            </div>
+            </div>
+            <div class="grid-item small-picture-3 logo-dizajn" >
+              <img src='4. PORTFOLIO - slike/toyota-logo-dizajn-340x480px.jpg'>
+              <div class="hover">
+                <div class="image__title">TOYOTA</div>
+                <p class="image__description">
+                    LOGO DIZAJN
+                </p>
+            </div>
+            </div>
+            <div class="grid-item small-picture-4 web-dizajn" >
+              <img src='4. PORTFOLIO - slike/bcreative-web-dizajn-web-development-340x480.jpg'>
+              <div class="hover">
+                <div class="image__title">B CREATIVE</div>
+                <p class="image__description">
+                    WEB DIZAJN
+                </p>
+            </div>
+            </div>
+            <div class="grid-item big-picture-4 web-dizajn">
+              <img src='4. PORTFOLIO - slike/how2fit-web-design-680x480px.jpg'>
+              <div class="hover">
+                <div class="image__title">HOW 2 FIT</div>
+                <p class="image__description">
+                    WEB DIZAJN
+                </p>
+            </div>
+            </div>
+          </div>
+</div>
+
+    <div class="container-counter">
+        <div class="counter-wrapper">
+
+            <h5 >PROJEKATA</h5>
+            <div id="counter" class="counter">
+            </div>
+        </div>
+        <div class="counter-wrapper">
+            
+            <h5>KLIJENATA</h5>
+            <div id="counter1" class="counter">
+            </div>
+        </div>
+        <div class="counter-wrapper">
+
+            <h5>KAFA</h5>
+            <div id="counter2" class="counter">
+            </div>
+        </div>
+        <div class="counter-wrapper">
+
+            <h5>PRIZNANJA</h5>
+            <div id="counter3" class="counter">
+            </div>
+        </div>
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="blog-section">
+        <h1 id="blog" class="section-title">BLOG</h1>
+        <div class="title-underline"></div>
+
+        <p class="section-info">Lorem, ipsum dolor sit amet consectetur
+            
+            Necessitatibus, dolore consequatur!</p>
+
+
+
+
+
+
+
+
+
+
+        <div class="section-img-container">
+            <div class="blog-img-container">
+                <div class="img-container first-img">
+                    <div class="date-box">17. <br> OKT</div>
+                </div>
+                <div class="ph1">
+                    <div class="cont1 title-link-contianer">
+                        <h3>KVALITET NE IZLAZI IZ MODE</h3>
+                        <h4>LOGO DIZAJN</h4>
+    
+                        <a href="#">Saznaj vise <i class="arrow"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-img-container">
+                <div class="img-container second-img">
+                    <div class="date-box">5. <br> OKT</div>
+                </div>
+                <div class="cont3 title-link-contianer">
+                    <h3>OPTIMIZACIJA SAJTA</h3>
+                    <h4>WEB DIZAJN</h4>
+
+                    <a href="#">Saznaj vise <i class="arrow"></i></a>
+                </div>
+            </div>
+            <div class="blog-img-container">
+                <div class="img-container third-img">
+                    <div class="date-box">23. <br> SEP</div>
+                </div>
+                <div class="ph2">
+                    
+                <div class="cont2 title-link-contianer">
+                    <h3>PSIHOLOGIJA BOJA</h3>
+                    <h4>LOGO DIZAJN</h4>
+
+                    <a href="#">Saznaj vise <i class="arrow"></i></a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    
+   
+    <div class="container-nas-tim">
+        <div class="nista"></div>
+        <h1 class="section-title2">UPOZNJETE NAS TIM</h1>
+        <div class="title-underline1"></div>
+        <div class="container-slike1">
+            <div class="member1">
+                <img class="member__img1" src="TIM/photo-1587403655231-b1734312903f.avif" alt="Error">
+                <div class="member-overlay">
+                    <div class="member-title">
+                        <i class="fa-brands fa-facebook-f text-danger12"></i>
+                        <i class="fa-brands fa-twitter text-danger13"></i>
+                        <i class="fa-brands fa-instagram text-danger14"></i>
+                        <i class="fa-brands fa-linkedin-in text-danger15"></i>
+                    </div>
+                    <p class="member__description">
+                        Ime Prezime 1<br>
+                        Designer
+                    <div class="ime-underline"></div>
+                    <div class="lorem-member">Lorem ipsum dolor adipisicing elit.
+                        <br> error illum eveniet!
+                    </div>
+                    </p>
+                </div>
+            </div>
+            <div class="member2">
+                <img class="member__img2" src="TIM/photo-1590086782792-42dd2350140d.jpg" alt="Error">
+                <div class="member-overlay">
+                    <div class="member-title">
+                        <i class="fa-brands fa-facebook-f text-danger12"></i>
+                        <i class="fa-brands fa-twitter text-danger13"></i>
+                        <i class="fa-brands fa-instagram text-danger14"></i>
+                        <i class="fa-brands fa-linkedin-in text-danger15"></i>
+                    </div>
+                    <p class="member__description">
+                        Ime Prezime 2<br>
+                        CEO
+                    <div class="ime-underline"></div>
+                    <div class="lorem-member">Lorem ipsum dolor amet consectetur adipisicing elit.
+                        <br> error eveniet!
+                    </div>
+                    </p>
+                </div>
+            </div>
+            <div class="member3">
+                <img class="member__img3" src="TIM/christian-buehner-DItYlc26zVI-unsplash-1.png" alt="Error">
+                <div class="member-overlay">
+                    <div class="member-title">
+                        <i class="fa-brands fa-facebook-f text-danger12"></i>
+                        <i class="fa-brands fa-twitter text-danger13"></i>
+                        <i class="fa-brands fa-instagram text-danger14"></i>
+                        <i class="fa-brands fa-linkedin-in text-danger15"></i>
+                    </div>
+                    <p class="member__description">
+                        Ime Prezime 3<br>
+                        Developer
+                    <div class="ime-underline"></div>
+                    <div class="lorem-member">Lorem ipst consectetur adipisicing elit.
+                        <br> error illum eveniet!
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="donje-nista"></div>
+
+
+
+
+
+
+      </div>
+    <div class="kontaktirajte-nas">
+        <div class="razmak"></div>
+        <h1 id="kontakt" class="naslov-kontaktirajte-nas">KONTAKTIRAJTE NAS!</h1>
+        <div class="podvuceno"></div>
+<div class="icons-gap">
+        <div class="forma">
+            <form id="usform">
+                <input class="ime" required placeholder="VASE IME*" type="text" id="fname" name="fname"><br>
+                <input class="ime" required placeholder="VAS MAIL*" type="email" id="mail" name="mail"><br>
+                <textarea class="poruka" name="comment" form="usform">PORUKA:</textarea><br>
+                <input class="dugmence" type="submit" value="POSALJI!">
+            </form>
+            
+            
+            <div class="ikonice-kontaktirajte-nas">
+                <div class="info1">
+                    <i class="fa-sharp fa-solid fa-location-dot text-danger5"></i><span class="adress-info">
+                        <h4>ADRESA</h4>
+                        Joesph T. Villanvera 129 North Street<br>
+                        Grand Rapids, MI 496546
+                    </span>
+
+                </div>
+                <div class="info1">
+                    <i class="fa-regular fa-envelope text-danger6"></i><span class="mail-info">
+                        <h4>EMAIL</h4>
+                        incongnito@gmail.com<br>
+                        office@bcreative.com<br>
+                    </span>
+
+
+                </div>
+                <div class="info1">
+                    <i class="fa-sharp fa-solid fa-phone text-danger7"></i><span class="tel-info">
+                        <h4>TELEFON</h4>
+                        +387 611 112 22<br>
+                        +387 32 222 333
+                    </span>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+    <div class="container-bottom">
+        <div class="final1">
+            <h4 class="final-title">BE CREATIVE DIGITAL AGENCY</h4><br><br>
+            <p class="lorem333">Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br><br>
+                Assumenda ipsum reiciendis id suscipit accus <br><br>
+                Vel sunt voluptatum non suscipit sequi dignissimos doloribus <br><br>
+                natus adipisci sapiente ab veniam perferendis, <br><br>
+            </p>
+            <a href="#pocetna"><img class="final-logo" src="8. FOOTER/logo b-creative-02.svg"></a>
+        </div>
+        <div class="final-headers">
+            <a class="bottom-tag" href="#pocetna">
+                <h4 class="header1">POCETNA</h4>
+            </a>
+            <a class="bottom-tag" href="#o-nama">
+                <h4 class="header1">O NAMA</h4>
+            </a>
+            <a class="bottom-tag" href="#portfolio">
+                <h4 class="header1">PORTFOLIO</h4>
+            </a>
+            <a class="bottom-tag" href="#blog">
+                <h4 class="header1">BLOG</h4>
+                <a class="bottom-tag" href="#kontakt">
+                    <h4 class="header1">KONTAKT</h4>
+                </a>
+        </div>
+        <div class="subscription">
+            <h4 class="sub-text">PRETPLATI SE NA NAS NEWSLETTER</h4>
+            <input class="sub-input" type="email" name="mail" id="mail" placeholder="   UNESITE VASU EMAIL ADRESU"><br>
+            <button class="sub-button">PRETPLATI SE</button>
+        </div>
+    </div>
+    <div class="copyright">
+        <div class="cr-text">
+            <span>Copyright LANACO | All Rights Reserved</span>
+        </div>
+        <div class="cr-icons">
+            <i class="fa-brands fa-facebook-f text-danger8"></i>
+            <i class="fa-brands fa-twitter text-danger9"></i>
+            <i class="fa-brands fa-instagram text-danger10"></i>
+            <i class="fa-brands fa-linkedin-in text-danger11"></i>
+        </div>
+    </div>
+  </body>
+  
+<script src="script.js"></script> 
+<script src="showhidemenu.js"></script>
+<script src="hideothers.js"></script>
+
+</html>
